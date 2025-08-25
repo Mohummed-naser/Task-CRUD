@@ -133,7 +133,7 @@ function searchValue() {
 }
 //functionForValidation
 function regexValue() {
-    var reg = /^[A-Z]{3,10}[a-z]{3,10}$/
+    var reg = /^[A-Z][a-z]{3,10}$/
     if(reg.test(ProductName.value)) {
         ProductName.classList.add('is-valid');
         ProductName.classList.remove('is-invalid');
