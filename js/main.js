@@ -92,7 +92,7 @@ function updateItem(i) {
     ProductPrice.value = arrayList[i].price;
     ProductCategory.value = arrayList[i].category;
     ProductDescription.value = arrayList[i].description;
-    imgInput.files = arrayList[i].image;
+    // imgInput.files = arrayList[i].image;
     Submit.innerHTML = 'Update';
     mood = 'Update';
     tmp = i;
