@@ -100,7 +100,7 @@ function updateItem(i) {
             top:0,
             behavior: 'smooth'
         })
-    // alert("Re-enter the image after modifying the data.\nمش عارف ارجع الصورة ياهندسة (:");
+    alert("Re-enter the image after modifying the data.\nمش عارف ارجع الصورة ياهندسة (:");
     }
 //functionSearch
 function searchValue() {
